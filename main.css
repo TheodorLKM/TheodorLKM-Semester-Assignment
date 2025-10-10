@@ -56,7 +56,7 @@ h3{font-size:clamp(1.125rem,1.8vw,1.25rem)}
 .highlight{color:var(--primary)}
 
 /* ----------Strips/Sections---------- */
-.strip{background:var(--bg-subtle); border-block:1px; solid #E5E7EB}
+.strip{background:var(--bg-subtle); border-block:1px; solid :#E5E7EB}
 .strip-grid{display:grid; grid-template-columns:repeat(3,1fr); gap:1rem; padding:1rem 0}
 .strip-item{background: #fff; border-radius:var(--rad); box-shadow:var(--shadow); padding:1rem}
 .section{padding:3rem 0}
