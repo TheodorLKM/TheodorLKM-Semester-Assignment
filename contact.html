@@ -30,6 +30,57 @@
             </nav>
         </div>
     </header>
+
+    <main id="main" class="section">
+        <div class="container">
+            <header class="stack-s">
+                <h1>Contact Us</h1>
+                <p class="muted prose">We love questions! Send us a message about visits, workshops, accessibilities or anything else!</p>
+            </header>
+
+            <section class="grid-2 section" aria-labelledby="form">
+                <div>
+                    <h2 id="form">Send a message</h2>
+                    <!-- Static form UI (no JS) -->
+                     <form class="stack-m" action="#" method="post">
+                        <div class="stack-xs">
+                            <label for="name">Your name</label>
+                            <input id="name" name="name" type="text" required aria-required="true" />
+                        </div>
+                        <div class="stack-xs">
+                            <label for="topic">Topic</label>
+                            <select id="topic" name="topic" required>
+                                <option value="">Select a topic</option>
+                                <option>General question</option>
+                                <option>Group booking</option>
+                                <option>Accessibility</option>
+                                <option>Volunteering</option>
+                            </select>
+                        </div>
+                        <div class="stack-xs">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="6" required></textarea>
+                        </div>
+                        <button class="btn btn-primary" type="submit">Send message</button>
+                        <p class="muted">This demo form shows the field only. For the assignment, server handling is not required.</p>
+                     </form>
+                </div>
+
+                <aside class="stack-m">
+                    <h2>Other ways to reach us</h2>
+                    <p><strong>Email:</strong><a href="mailto:hello@csmuseum.org">Hello@csmuseum.org</a></br>
+                    <strong>Phone:</strong> <a href="tel:+123456789">+1 234 567 89</a></p>
+
+                    <h3>Address</h3>
+                    <address>123 Discovery Way, Your City</address>
+
+                    <h3>Press & partnerships</h3>
+                    <p>Email <a href="mailto:press@csmuseum.org">press@csmuseum.org</a></p>
+                </aside>
+            </section>
+        </div>
+    </main>
+    
     <footer class="site-footer" role="contentinfo">
             <div class="container footer-grid">
                 <section aria-labelledby="visit-footer">
